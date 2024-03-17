@@ -1,0 +1,64 @@
+@media (max-width: 1200px) {
+    .main-left{
+        margin-top: 0;
+    }
+    .main-box{
+        display:block;
+    }
+    .main-descr{
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .container{
+        height: 100%;
+        padding: 50px 0;
+    }
+    .main{
+        display: block;
+        text-align: center
+    }
+    .header{
+        margin-bottom: 20px;
+        padding: 0 40px;
+    }
+    .main-left{
+        height: 80vh;
+        justify-content: center;
+    }
+    .main-right{
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media(max-width:  650px) {
+    .main-right{
+        width: 310px;
+    }
+}
+
+
+
+@media(max-width: 530px){
+    .main{
+        margin:0;
+    }
+    .main-right{
+        padding-top: 0;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+    .main-descr{
+        margin-top: 10px;
+    }
+}

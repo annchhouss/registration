@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <script  type="text/javascript" src="script.js" defer>  </script>
+    
+</head>
+<body>
+
+
+    <div class="container">
+        <header>
+            <img src="img/Your Logo.svg" alt="logo">
+        </header>
+        <main class="main">
+            <div class="main-left">
+                <div class="main-cap">
+                    <h1 class="title">
+                        Sign in to
+                    </h1>
+                    <h2 class="subtitle">
+                        Lorem ipsum is simply!
+                    </h2>
+                </div>
+                <div class="main-box">
+                    <div class="main-descr">
+                        <p class="text"> If you don’t have an account register </p>
+                        <div class="subtext"> You can <a href="#" class="main-link"> Register here !</a></div>
+                    </div>
+
+                    <div class="main-image">
+                        <img src="img/Saly-14.png" alt="boy">
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="main-right">
+                <form action="" onsumbit="successSign()">
+                    <h2 class="form-title">Sign in</h2>
+                    <input type="text" class="form-name" placeholder="Enter email or user name" required>
+                    <input type="text" class="form-password" placeholder="Password" required >
+                    <img src="img/invisible 1.svg" alt="" class="visibility-icon" onclick="togglePasswordVision()">
+                     
+
+                    <div class="form-hint">
+                        <a href="https://google.com" onclick="alertForgotPssw()"> Forgot password? </a>
+                    </div>
+
+                    <input type="submit" class="form-submit" value="Login">
+
+                    <p class="form-text">
+                        or continiue with
+                    </p>
+                    <ul class="form-links">
+                        <li class="form-links-item">
+                            <a href="#">
+                                <img src="img/Facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="form-links-item">
+                            <a href="#">
+                                <img src="img/google.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="form-links-item">
+                            <a href="#">
+                                <img src="img/apple.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+
+        </main>
+    </div>
+</body>
+</html>
